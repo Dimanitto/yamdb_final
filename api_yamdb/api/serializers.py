@@ -1,11 +1,9 @@
+import api.views
 from django.db.models import Avg
-
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.generics import get_object_or_404
-
-from reviews.models import (Comment, Review, Title, Genre, Category, User)
-import api.views
+from reviews.models import Category, Comment, Genre, Review, Title, User
 
 
 class CategorySerializer(serializers.ModelSerializer):
