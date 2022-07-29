@@ -5,16 +5,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&fakel^##vvvvvvs')
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '*',
-    '127.0.0.1',
-    'localhost',
-    '51.250.106.88',
-    '81.250.106.88:8000',
-    'web',
-    'web:8000',
 ]
 
 INSTALLED_APPS = [
