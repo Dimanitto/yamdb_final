@@ -14,6 +14,7 @@ ALLOWED_HOSTS = [
     '51.250.106.88',
     '81.250.106.88:8000',
     'web',
+    'web:8000',
 ]
 
 INSTALLED_APPS = [
