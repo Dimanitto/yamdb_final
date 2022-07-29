@@ -9,6 +9,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '*',
+    '127.0.0.1',
+    'localhost',
+    '51.250.106.88',
+    '81.250.106.88:8000,
 ]
 
 INSTALLED_APPS = [
