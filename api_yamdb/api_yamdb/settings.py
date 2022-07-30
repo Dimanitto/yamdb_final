@@ -11,6 +11,8 @@ ALLOWED_HOSTS = [
     '*',
 ]
 
+# Почему в докер контейнер не передаются изменения? - сейчас провериим!!!!!!!!
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
