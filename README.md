@@ -15,6 +15,20 @@
 * деплой на сервер после успешного прохождения всех тестов
 * уведомление об успешном прохождении всех этапов
 
+### Подготовка удаленного сервера для развертывания приложения
+Установка docker:
+```
+ sudo apt install -y docker-ce
+```
+Установка docker-compose:
+```
+apt install docker-compose
+```
+Создайте папку проекта на удаленном сервере и скопируйте туда файлы docker-compose.yaml, default.conf (настройки nginx):
+```
+scp ./<FILENAME> <USER>@<HOST>:/home/<USER>/yamdb_final/
+```
+
 ### Подготовка репозитория на GitHub
 
 Для использования Continuous Integration и Continuous Deployment необходимо в репозитории на GitHub прописать Secrets - переменные доступа к вашим сервисам.
