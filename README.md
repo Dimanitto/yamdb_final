@@ -61,6 +61,7 @@ python manage.py loaddata fixtures.json
 
 ## Развернутый проект
 http://51.250.106.88/admin/
+http://51.250.106.88/redoc/
 
 ## Для обращения к API проекта:
 * http://51.250.106.88/api/v1/auth/token/
